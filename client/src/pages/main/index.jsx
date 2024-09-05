@@ -1,4 +1,4 @@
-import './App.css'
+import '../../styles/main/index.css'
 
 export default function App() {
   return (

@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 @app.route('/api', methods=['POST'])
 def api():
-    data = request.get_json()
-    return jsonify(data)
+    datos_random = "Hola mundo"
+    return jsonify({'data': datos_random})
 
 if __name__ == '__main__':
     app.run(port=5000)
