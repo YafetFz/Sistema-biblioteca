@@ -1,7 +1,22 @@
 import axios from "axios"; // Librería para hacer peticiones HTTP
+import React from "react";
+
 import "../../styles/acceso/login.css";
 
 export default function Login() {
+    const [email, setEmail] = React.useState(""); // "Variables de estado" de React
+    const [password, setPassword] = React.useState("");
+
+    React.useEffect(() => {
+        // Ejecutar una función cuando la página cargue
+        alert("La página ha cargado");
+    }, []);
+
+    React.useEffect(() => {
+        // Ejecutar una función cuando el email cambie
+        alert("El email ha cambiado");
+    }, [email]);
+
     const login = async () => {
         try {
             // "http://localhost:3001/login" es la URL del servidor
