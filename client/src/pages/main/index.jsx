@@ -1,9 +1,9 @@
-import '../../styles/main/index.css'
+import "../../styles/main/index.css";
 
 export default function App() {
-  return (
-    <main>
-      eqweqweq
-    </main>
-  )
+    return (
+        <main>
+            <h1>Página principal</h1>
+        </main>
+    );
 }

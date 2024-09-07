@@ -1,17 +1,26 @@
-## Running React on Replit
+# Clona el repositorio
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+## Requisitos previos
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+- Tener Git instalado en tu computadora.
+  - Puedes descargarlo desde: [Git](https://git-scm.com/)
+  
+### 1. Clonar el repositorio
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+1. Abre la terminal de Windows (puedes buscar "cmd" o "PowerShell" en el menú de inicio).
+2. Navega al directorio donde deseas clonar el repositorio con el siguiente comando:
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+   ```bash
+   cd ruta/donde/quieres/clonar
+   ```
+### 2. Clona el repositorio usando el comando git clone seguido de la URL del repositorio:
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+```bash
+git clone https://github.com/YafetFz/Sistema-biblioteca.git
+```
 
-### Typescript
+Una vez que se haya clonado el repositorio, navega al directorio del proyecto:
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+```bash
+cd Sistema-biblioteca
+```
