@@ -43,16 +43,10 @@ export default function Login() {
             <img src="/img/fondo.jpg" alt="imagen de fondo" />
             <form>
                 <h1>Login</h1>
-                <label htmlFor="email">Correo electrónico</label><br />
-                <input type="email" id="email" name="email" placeholder="example@ex.com"/>
-                <br />
-
-                <label htmlFor="password">Contraseña</label><br />
-                <input type="password" id="password" name="password" placeholder="••••••••"/>
-                <br />
-
+                <label htmlFor="cuenta" className="num" >Número de cuenta del carnet estudiantil</label>
+                <input type="text" id="cuenta" className="cuen" name="email" placeholder="example: 7mo_012401"/>
                 <button type="button" onClick={login}>
-                    Iniciar sesión
+                    Ingresar 
                 </button>
             </form>
         </main>
