@@ -13,7 +13,7 @@
 2. Navega al directorio de tu proyecto utilizando el siguiente comando:
 
    ```bash
-   cd ruta/del/proyecto
+   cd client
    ```
 
 3. Una vez dentro de la carpeta del proyecto, instala las dependencias necesarias ejecutando:
