@@ -7,7 +7,7 @@
   
 ### 1. Clonar el repositorio
 
-1. Abre la terminal de Windows (puedes buscar "cmd" o "PowerShell" en el menú de inicio).
+1. Abre la terminal de Windows (puedes buscar "PowerShell" en el menú de inicio).
 2. Navega al directorio donde deseas clonar el repositorio con el siguiente comando:
 
    ```bash
