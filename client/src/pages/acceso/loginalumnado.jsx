@@ -1,7 +1,7 @@
 import axios from "axios"; // Librería para hacer peticiones HTTP
 import React from "react";
 
-import "../../styles/acceso/login.css";
+import "../../styles/acceso/loginalumnado.scss";
 
 export default function Login() {
     const [email, setEmail] = React.useState(""); // "Variables de estado" de React
@@ -39,16 +39,29 @@ export default function Login() {
     };
 
     return (
-        <main>
-            <img src="/img/fondo.jpg" alt="imagen de fondo" />
-            <form>
-                <h1>Login</h1>
-                <label htmlFor="cuenta" className="num" >Número de cuenta del carnet estudiantil</label>
-                <input type="text" id="cuenta" className="cuen" name="email" placeholder="example: 7mo_012401"/>
-                <button type="button" onClick={login}>
-                    Ingresar 
-                </button>
-            </form>
-        </main>
+        <div className="loginalumnado">
+            <main>
+                <img src="/img/fondo.jpg" alt="imagen de fondo" />
+                <form>
+                    <h1>Ingreso Alumnos</h1>
+
+                    <div>
+                        <label htmlFor="cuenta" className="num">
+                            Número de cuenta del carnet estudiantil
+                        </label>
+                        <input
+                            type="text"
+                            id="cuenta"
+                            name="cuenta"
+                            placeholder="Ejemplo: 7mo_012401"
+                        />
+                    </div>
+
+                    <button type="button" onClick={login}>
+                        Ingresar
+                    </button>
+                </form>
+            </main>
+        </div>
     );
 }

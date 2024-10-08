@@ -7,6 +7,8 @@ import AccesoAlumno from "./pages/acceso/loginalumnado"
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
+import './styles/global.css'
+
 const router = createBrowserRouter([
 	{
 		path: '/',
