@@ -1,0 +1,87 @@
+.login {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        min-height: 100vh;
+        color: white;
+
+        img {
+            width: 100%;
+            position: fixed;
+            z-index: 0;
+            filter: brightness(0.6);
+        }
+
+        form {
+            background-color: #0a2438be;
+            width: 35%;
+            height: 70%;
+            padding: 15px;
+            border-radius: 10px;
+            z-index: 1;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            h1 {
+                text-align: center;
+                font-size: 40px;
+                margin: 10px 0;
+                color: #6fc1e4;
+            }
+
+            div {
+                width: 100%;
+
+                label {
+                    font-size: 20px;
+                }
+
+                input {
+                    color: white;
+                    width: 100%;
+                    height: 30px;
+                    padding: 5px;
+                    border-radius: 5px;
+                    border: 2px solid #6fc1e4;
+                    margin: 5px 0;
+                    background-color: rgba(255, 255, 255, 0.267);
+                    font-size: 20px;
+                    transition: 0.1s ease;
+
+                    &::placeholder {
+                        color: rgba(255, 255, 255, 0.541);
+                    }
+                }
+
+                input:focus {
+                    background-color: rgba(255, 255, 255, 0.473);
+                    outline: none;
+                }
+            }
+
+            button {
+                width: 70%;
+                height: 10%;
+                border-radius: 5px;
+                border: none;
+                margin: auto;
+                background-color: #003764;
+                color: white;
+                font-size: 20px;
+                padding: 10px;
+                cursor: pointer;
+                transition: 0.1s ease;
+            }
+
+            button:hover {
+                filter: brightness(0.8);
+            }
+        }
+    }
+}
